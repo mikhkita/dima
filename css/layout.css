@@ -88,7 +88,7 @@ h1{
 	position: relative;
 }
 .b-block{
-	
+	height: 100%;
 	width: 1152px;
 	margin: 0px auto;
 }
@@ -188,11 +188,11 @@ input:-moz-placeholder {
 .b-center-title-container{
 	display:table;	
 	width: 100%;
-	height: 70vh;
+	height: calc(100% - 94px);
+    padding-bottom: 50px;
 }
 .b-center-title{
 	display: table-cell;
-	
 	vertical-align: middle;
 }
 
@@ -215,7 +215,7 @@ h1{
 	position: absolute;
 	width: 22px;
 	height: 57px;
-	left: 50%;
+	left: calc(50% - 11px);
 	bottom: 2%;
 }
 
@@ -271,6 +271,7 @@ h1{
 	vertical-align: middle;
 	margin-right: 32px;
 	display: inline-block;
+	border-radius: 3px;
 }
 .calendar{
 	background-image: url(../i/2/calendar.svg);
@@ -338,8 +339,9 @@ h1{
 	background-image: url(../i/3/background.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	background-size: cover;
 	padding-top: 76px;
-	height: 797px;
+	min-height: 797px;
 }
 
 .advantages > ul > li{
@@ -462,6 +464,7 @@ label{
 	line-height: 32px;
 	color: #554E4E;
 	display:block;
+	margin-bottom: 4px;
 }
 input{
 	display: inline-block;
@@ -521,6 +524,7 @@ input{
 	text-align: left;
 	line-height: 44px;
 }
+
 .personal-data-container{
 	float: left;
 	margin-top: 32px;
@@ -556,7 +560,7 @@ input{
 }
 .right-bottom-block{
 	width: calc(50% - 12px);
-	max-width: 524px;
+	max-width: 563px;
 	margin-top: 74px;
 	display: inline-block;
 	float: right;
@@ -565,6 +569,7 @@ input{
 	font-family: merel;
 	font-size: 20px;
 	line-height: 30px;
+	margin-top: 16px;
 }
 .contacts-text b{
 	font-family: merel-bold;
@@ -577,7 +582,7 @@ input{
 	height: 50px;
 	padding: 12px 24px 16px 24px;
 	margin-top: 32px;
-	margin-bottom: 48px;
+	margin-bottom: 47px;
 }
 .arrow.down{
 	background-image: url(../i/last/arrow-down.svg);
