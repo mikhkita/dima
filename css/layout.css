@@ -99,12 +99,17 @@ h1{
 	margin-left: -500px;
 }
 input::-webkit-input-placeholder {
-	color: #777;
+	color: #E6E6E6;
 }
 input:-moz-placeholder {
-	color: #777;
+	color: #E6E6E6;
 }
-
+textarea::-webkit-input-placeholder {
+	color: #E6E6E6;
+}
+textarea:-moz-placeholder {
+	color: #E6E6E6;
+}
 .menu{
 
 }
@@ -179,7 +184,7 @@ input:-moz-placeholder {
 	font-size: 16px;
 }
 .b-btn:hover{
-	background-color: rgba(230, 187, 9, 0.2);
+	background-color: rgba(230, 187, 9, 0.4);
 }
 .b-phone{
 	margin-bottom: 11px;
@@ -259,7 +264,7 @@ h1{
 	box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
 }
 .b-btn.yellow:hover{
-	background-color: rgb(230, 187, 9);
+	background-color: rgb(241, 197, 18);
 }
 
 .b-square{
@@ -367,9 +372,7 @@ h1{
 
 p.subtitle-pic{
 	color: #ffffff;
-	text-align: center;
 	margin-top: 18px;
-	width: 368px;
 	line-height: 26px;
 	font-family: merel-bold;
 	font-size: 22px;
@@ -381,11 +384,12 @@ p.subtitle-pic{
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	display: inline-block;
-	padding-left: 27px;
-	padding-right: 27px;
-	padding-top: 6px;
+	padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 19px;
 	position: relative;
 	top: 24px;
+	text-align: left;
 	
 	
 }
@@ -444,6 +448,7 @@ p.subtitle-pic{
 	font-family: merel;
 	color: #554E4E;
 	line-height: 32px;
+
 	
 }
 .b-4 > .b-block > .b-btn{
