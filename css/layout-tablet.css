@@ -1,0 +1,73 @@
+@charset "utf-8";
+@media screen and (max-width: 1152px){
+	body{
+		min-width: 769px;
+	}
+	.b-block{
+		width: calc(100% - 48px);
+	}
+	.input-container-small{
+		width: 100%;
+	}
+	.personal-data{
+		width: 100%;
+	}
+	.personal-data-container .b-btn.yellow{
+		float: none;
+		margin-top: 20px;
+	}
+	.b-right{
+		float:right;
+		width: calc(50% - 24px);
+		padding-left: 12px;
+		position: relative;
+	}
+	.b-right:after{
+		left: -1px;
+	}
+	/*.b-right:before{
+		position: absolute;
+	    background-color: #F4F4F4;
+	    width: 1000px;
+	    height: 1000px;
+	    font-size: 0px;
+	    content: ".";
+	    right: 500px;
+	    top: 0px;
+	    z-index: -1;
+	}*/
+	.b-left{
+		width: calc(50% - 24px);
+	}
+	}
+	.b-menu{
+	padding-left: 0%;
+	padding-right: 0%;
+}
+}
+@media screen and (max-width: 875px){
+	.advantages > ul > li{
+		width: 70%;		
+		float: none;
+	}
+	.b-3 .b-block{
+		display:table;
+	}
+	.b-block{
+		display: block;
+	}
+	.advantages{
+		display: inline-block;	
+	}
+	.advantages > ul > li:nth-child(2){
+		margin-right: 0px;
+	}
+	.advantages > ul > li:not(:first-child){
+		margin-top: 24px;
+	}
+@media screen and (max-width: 852px){
+	.number{
+		display: block;
+	}
+	
+}
